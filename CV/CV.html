@@ -1,0 +1,63 @@
+<html>
+<meta charset ="utf-8" />
+<head>
+<title>C.V en ligne</title>
+</head>
+<body>
+<header>
+	<h1> Mon C.V en ligne </h1>
+</header>
+<div>
+<form action="envoiBDD.php" method="post">
+<fieldset>
+	<legend> Informations personnelles </legend>
+	<!-- Méthode pour inscrire dans une zone de texte -->
+	<label for="Nom"> Entrez votre nom :</label>
+	<input type="text" name="Nom">
+
+<br></br>
+
+	<!-- Méthode pour inscrire dans une zone de texte -->
+	<label for="Prenom"> Entrez votre prénom :</label>
+	<input type="text" name="Prenom">
+
+<br></br>
+<label for="date"> Votre date de naissance :</label>
+	<input type="date" name="date">
+
+
+<br></br>
+<label for="email"> Entrez votre email :</label>
+	<input type="email" name="email">
+
+<br></br>
+	<label for="telephone"> Saisissez votre numéro de téléphone :</label>
+	<input type="tel" name="telephone">
+
+<br></br>
+	<label for="Address"> Saisissez votre adresse  :</label>
+	<input type="text" name="Address">
+
+<br></br>
+	<label for="Ville"> Saisissez votre ville  :</label>
+	<input type="text" name="Ville">
+
+
+<br></br>
+
+	<label for="code"> Indiquez votre code postal :</label>
+	<select name="code">
+		<option value="14000">14000</option>
+		<option value="14100">14100</option>
+		<option value="14123">14123</option>
+		<option value="14500">14500</option>
+	</select>
+	<br></br>
+	<br></br>
+	<input type="submit" name="Envoyer">
+	<input type="reset" name="Effacez">
+	</fieldset>
+	</form>
+</div>
+</body>
+</html>
